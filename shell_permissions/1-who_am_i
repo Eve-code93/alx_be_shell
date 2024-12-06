@@ -1,0 +1,8 @@
+#!/bin/bash
+whoami
+wc -l 1-who_am_i  # Output should be 2
+tail -1 1-who_am_i | wc -c  # Output should be 1 for the newline
+chmod +x 1-who_am_i
+#!/bin/bash
+whoami
+
